@@ -1,0 +1,39 @@
+body{
+    background-image: url("bg1.jpg");
+    background-size: cover;
+}
+h1{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Praise', cursive;
+    font-family: 'Rampart One', cursive;
+}
+canvas{
+    background-color: rgb(255, 255, 255);
+    border-width:10px;
+    border-style:ridge;
+    border-color: grey;
+    cursor: pointer;
+}
+input{
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(179, 255, 0);
+    border-width: 6;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    border-bottom-left-radius:10px;
+    border-top-right-radius:10px;
+}
+span{
+    font-size: 25px;
+}
